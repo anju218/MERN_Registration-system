@@ -82,11 +82,6 @@ const Otp = () => {
                 
                 </form>
                 
-                <Typography > Do you have an account ?
-                     <Link to="/register" >
-                        Sign Up 
-                </Link>
-                </Typography>
             </Paper>
         </Grid>
             
