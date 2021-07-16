@@ -6,9 +6,7 @@ const router = express.Router();
 require("../db/conn");
 const User = require("../model/userSchema");
 dotenv.config({path: './config.env'});
-router.get("/", (req, res) => {
-  res.send(`Hello World from router`);
-});
+
 
 router.post("/register", async (req, res) => {
   const { name, email, phone, password, cpassword } = req.body;
